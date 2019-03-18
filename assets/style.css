@@ -162,7 +162,7 @@ h1 {
 
 #gr5 {
     background-color: lightpink;
-    position: absolute;
+    position: relative;
 
 }
 
@@ -190,10 +190,19 @@ h5 {
 
 .text-block {
     position: absolute;
-    background-color: red;
-    color: black;
-    opacity: 1.0;
-    font-family: basic, serif;
-    font-weight: 100px;
-    bottom:20px;
-    padding: 0px 5px 0px 5px;
+    width: 150px;
+    margin-left: 5px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #D80FDF;
+    text-decoration: none;
+}
